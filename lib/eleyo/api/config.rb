@@ -8,7 +8,7 @@ module Eleyo
           "https://config.reg.eleyo.green"
         elsif Eleyo::API.devmode?
           host = ENV.fetch("DEV_HOST") || "#{`scutil --get LocalHostName`.downcase.strip}.local"
-          "http://config.#{host}"
+          "https://config.#{host}"
         end
       end
 
