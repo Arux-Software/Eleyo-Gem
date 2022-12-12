@@ -77,7 +77,7 @@ module Eleyo
 
         request = HTTPI::Request.new
         request.url = "#{api_route}/users/#{uuid}"
-        request.body = params
+        request.body = params.to_json
         request.headers = self.generate_headers
 
         response = HTTPI.put(request)
