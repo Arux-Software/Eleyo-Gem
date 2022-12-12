@@ -13,7 +13,7 @@ require "eleyo/api/student"
 require "eleyo/api/cart"
 
 module Eleyo
-  VERSION = "1.0.0"
+  VERSION = "1.2.0"
   USER_AGENT = "Eleyo GEM #{VERSION}"
 end
 
