@@ -17,11 +17,11 @@ module Eleyo
   USER_AGENT = "Eleyo GEM #{VERSION}"
 end
 
-if ENV['FEEPAY_GEM_TEST_MODE'].to_s == "true" or ENV['ELEYO_GEM_TEST_MODE'].to_s == "true"
+if ENV['ELEYO_GEM_TEST_MODE'].to_s == "true"
   Eleyo::API.testmode = true
 end
 
-if ENV['FEEPAY_GEM_DEV_MODE'].to_s == "true" or ENV['ELEYO_GEM_DEV_MODE'].to_s == "true"
+if ENV['ELEYO_GEM_DEV_MODE'].to_s == "true"
   Eleyo::API.devmode = true
 end
 
