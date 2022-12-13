@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name           = "eleyo"
-  spec.version        = "1.2.0"
+  spec.version        = "1.2.1"
   spec.authors        = ["Arux Software"]
   spec.email          = ["sheuer@aruxsoftware.com"]
   spec.summary        = "Ruby gem for interacting with the Eleyo Switchboard APIs."
